@@ -1,0 +1,42 @@
+[
+	{
+		"name":"Sword",
+		"description":"Sword 3D stl",
+		"length":"100",
+		"width":"50",
+		"height":"15",
+		"price":"25",
+		"imageUri":"https://firebasestorage.googleapis.com/v0/b/dshare-android.appspot.com/o/image%2F2e269f476451b9832c4898bb48604faa_preview_featured.jpg?alt=media&token=f6712f8b-ab9f-4dc3-a710-ef90dfcf832c",
+		"stlUri":"https://firebasestorage.googleapis.com/v0/b/dshare-android.appspot.com/o/stl_files%2FStiletto_v1.stl?alt=media&token=132c2769-0780-4e54-a62f-ed0883e4c9c0"
+	},
+	{
+		"name":"Scholar",
+		"description":"Scholar 3D stl",
+		"length":"100",
+		"width":"50",
+		"height":"15",
+		"price":"25",
+		"imageUri":"https://firebasestorage.googleapis.com/v0/b/dshare-android.appspot.com/o/image%2F28ca214b50c83c0e164c7ef8965bcf60_preview_featured.jpg?alt=media&token=33447809-e4b7-45c4-8fec-0ec6fcadb2d4",
+		"stlUri":"https://firebasestorage.googleapis.com/v0/b/dshare-android.appspot.com/o/stl_files%2FElf_Scholar_Sack.stl?alt=media&token=883c0568-c8be-487c-97ed-4b2c442aa1aa"
+	},
+	{
+		"name":"Scraper",
+		"description":"Scraper 3D stl",
+		"length":"100",
+		"width":"50",
+		"height":"15",
+		"price":"25",
+		"imageUri":"https://firebasestorage.googleapis.com/v0/b/dshare-android.appspot.com/o/image%2F2393a91c296c37aeffd6b746926d6af9_preview_featured.jpg?alt=media&token=e8582d34-b72d-41d1-ab68-61cf6390c4c2",
+		"stlUri":"https://firebasestorage.googleapis.com/v0/b/dshare-android.appspot.com/o/stl_files%2FSCRAPER_FOR_3D_BED.stl?alt=media&token=258c7b32-c884-4def-a6f5-5fe4d5e2ba82"
+	},
+	{
+		"name":"Isolator",
+		"description":"Isolator 3D stl",
+		"length":"100",
+		"width":"50",
+		"height":"15",
+		"price":"25",
+		"imageUri":"https://firebasestorage.googleapis.com/v0/b/dshare-android.appspot.com/o/image%2F04691a55f8fe10f549362f75f96eb30a_preview_featured.jpg?alt=media&token=6e7be07a-0160-4346-a310-e42ae0ce83ff",
+		"stlUri":"https://firebasestorage.googleapis.com/v0/b/dshare-android.appspot.com/o/stl_files%2Fisolator.stl?alt=media&token=47c0ebaf-bead-4d66-afbb-4f99a491957d"
+	}
+]

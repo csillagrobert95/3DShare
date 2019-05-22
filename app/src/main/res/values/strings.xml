@@ -3,4 +3,20 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="add_new_design_activity">Add New Design</string>
+    <string name="design_name">Name</string>
+    <string name="design_description">Description</string>
+    <string name="length">Length</string>
+    <string name="design_dimensions">Dimensions</string>
+    <string name="length_mm">Length (mm)</string>
+    <string name="width_mm">Width (mm)</string>
+    <string name="height_mm">Height (mm)</string>
+    <string name="price">Price</string>
+    <string name="price_eur">Price (EUR)</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="upload_stl">Upload STL</string>
+    <string name="add_design">Add Design</string>
 </resources>

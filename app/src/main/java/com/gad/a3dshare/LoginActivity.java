@@ -1,5 +1,6 @@
 package com.gad.a3dshare;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -18,11 +19,12 @@ import com.google.firebase.auth.FirebaseUser;
 public class LoginActivity extends AppCompatActivity {
     public static final String TAG = LoginActivity.class.getSimpleName();
 
+    static final String USER_DATA = "user_data";
+
     private EditText email;
     private EditText password;
     private Button login;
 
-    // Initialize Firebase Auth
     private FirebaseAuth mAuth;
 
     @Override
@@ -39,7 +41,10 @@ public class LoginActivity extends AppCompatActivity {
         super.onStart();
         // Check if user is signed in (non-null) and update UI accordingly.
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        //updateUI(currentUser);
+        if(currentUser != null){
+            startMainActivity(currentUser);
+        }
+
     }
 
     private void initViews() {
@@ -62,17 +67,24 @@ public class LoginActivity extends AppCompatActivity {
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(LoginActivity.this, "Authentication successful.",
                                     Toast.LENGTH_SHORT).show();
-                            //updateUI(user);
+                            startMainActivity(user);
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.getException());
                             Toast.makeText(LoginActivity.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
-                            //updateUI(null);
                         }
                     }
                 });
 
     }
+
+    private void startMainActivity(FirebaseUser user){
+        Intent mainIntent = new Intent(LoginActivity.this, MainActivity.class);
+        mainIntent.putExtra(USER_DATA, user);
+        startActivity(mainIntent);
+    }
+
+
 
 }
