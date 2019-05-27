@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/space_148"
+    android:layout_marginTop="@dimen/space_16"
+    android:background="@color/white"
+    android:elevation="20dp"
+    app:cardBackgroundColor="@color/white"
+    android:foreground="?android:selectableItemBackground"
+    app:cardCornerRadius="@dimen/space_16">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/design_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Test design" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/space_148"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginEnd="264dp"
+            android:layout_marginRight="264dp"
+            android:background="@drawable/ic_launcher_background"
+            android:scaleType="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="InVision - Yesterday"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/design_name" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

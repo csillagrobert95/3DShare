@@ -19,4 +19,5 @@
     <string name="upload_image">Upload Image</string>
     <string name="upload_stl">Upload STL</string>
     <string name="add_design">Add Design</string>
+    <string name="project_image">Project Image</string>
 </resources>
